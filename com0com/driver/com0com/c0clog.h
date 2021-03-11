@@ -29,8 +29,8 @@
 //
 // Define the facility codes
 //
-#define FACILITY_RPC_STUBS               0x3
 #define FACILITY_RPC_RUNTIME             0x2
+#define FACILITY_RPC_STUBS               0x3
 #define FACILITY_IO_ERROR_CODE           0x4
 #define FACILITY_SERIAL_ERROR_CODE       0x6
 
@@ -38,9 +38,9 @@
 //
 // Define the severity codes
 //
-#define STATUS_SEVERITY_WARNING          0x2
 #define STATUS_SEVERITY_SUCCESS          0x0
 #define STATUS_SEVERITY_INFORMATIONAL    0x1
+#define STATUS_SEVERITY_WARNING          0x2
 #define STATUS_SEVERITY_ERROR            0x3
 
 
